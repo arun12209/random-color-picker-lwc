@@ -1,0 +1,18 @@
+.body-part{
+    height: 400px;
+    margin-bottom: -1%;
+}
+.center {
+    background-color: white !important;
+    max-width: 125px !important;
+    max-height: 21% !important;
+    margin: auto;
+    padding: 10px;
+    top: 37%;
+    border-radius: 5px ;
+}
+
+  .colorCode{
+      font-size: large;
+      font-weight: bold;
+  }
