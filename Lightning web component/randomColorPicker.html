@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Random Color Picker" icon-name="utility:palette">
+        <div class="body-part" style={backgroundColor}>
+            <div class="center">
+                <p class="colorCode">{backgroundColorCode}</p>
+                <lightning-button-icon icon-name="utility:copy_to_clipboard"  alternative-text="Copy" title={backgroundColorCode} onclick={copyToClipboard}>
+                </lightning-button-icon> &nbsp;&nbsp;&nbsp;
+                <lightning-button-icon icon-name="utility:change_record_type"  alternative-text="Change" title="Change" onclick={getRandomColor}>
+                </lightning-button-icon>
+            </div>
+        </div>
+    </lightning-card>
+</template>
